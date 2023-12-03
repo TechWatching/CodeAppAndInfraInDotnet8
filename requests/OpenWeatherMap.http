@@ -1,0 +1,11 @@
+@lat=44.837789
+@long=-0.57918
+
+GET https://api.openweathermap.org/data/2.5/forecast
+    ?lat={{lat}}&lon={{long}}
+    &appid={{apiKey}}
+    &units=metric
+    &cnt=5
+Accept: application/json
+
+###
