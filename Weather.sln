@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "src\WeatherAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureManagementSdk", "infra\AzureManagementLibraries\AzureManagementSdk.csproj", "{CC2E7158-BA64-4668-9F80-DC20FD9FF9F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Infra", "infra\WeatherApi.Infra\WeatherApi.Infra.csproj", "{A6AD73FB-C6FF-43AC-A4BC-8AA0EADDDC63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CC2E7158-BA64-4668-9F80-DC20FD9FF9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2E7158-BA64-4668-9F80-DC20FD9FF9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2E7158-BA64-4668-9F80-DC20FD9FF9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AD73FB-C6FF-43AC-A4BC-8AA0EADDDC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AD73FB-C6FF-43AC-A4BC-8AA0EADDDC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AD73FB-C6FF-43AC-A4BC-8AA0EADDDC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AD73FB-C6FF-43AC-A4BC-8AA0EADDDC63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

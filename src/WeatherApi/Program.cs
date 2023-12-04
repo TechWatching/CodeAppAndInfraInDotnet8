@@ -6,8 +6,6 @@ using WeatherApi.Services.OpenWeatherMap;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// builder.Services.AddTransient<IWeatherService, RandomWeatherService>();
-// builder.Services.AddTransient<IWeatherService, OpenWeatherService>();
 builder.Services.AddKeyedTransient<IWeatherService, RandomWeatherService>("random");
 builder.Services.AddKeyedTransient<IWeatherService, OpenWeatherService>("api");
 

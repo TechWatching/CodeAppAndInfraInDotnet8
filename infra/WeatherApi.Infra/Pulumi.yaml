@@ -1,0 +1,3 @@
+name: WeatherApi.Infra
+runtime: dotnet
+description: Infrastructure for the WeatherApi.Infra
